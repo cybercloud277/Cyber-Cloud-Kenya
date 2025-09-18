@@ -1,0 +1,35 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#28b346;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a1a1aa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud shape -->
+  <path d="M15 35 Q15 25 25 25 Q35 25 35 35 Q35 40 30 40 L20 40 Q15 40 15 35 Z" fill="url(#logoGradient)" opacity="0.8"/>
+  <path d="M20 30 Q20 22 28 22 Q36 22 36 30 Q36 35 32 35 L24 35 Q20 35 20 30 Z" fill="url(#logoGradient)"/>
+
+  <!-- Circuit lines -->
+  <path d="M8 32 L12 32 L12 28 L16 28" stroke="#00ff2a" stroke-width="1.5" fill="none"/>
+  <path d="M40 32 L44 32 L44 36 L48 36" stroke="#00ff2a" stroke-width="1.5" fill="none"/>
+  <circle cx="46" cy="36" r="1.5" fill="#00ff2a"/>
+  <circle cx="10" cy="28" r="1.5" fill="#00ff2a"/>
+
+  <!-- Digital nodes -->
+  <rect x="6" y="30" width="2" height="2" fill="#00ff2a"/>
+  <rect x="42" y="34" width="2" height="2" fill="#00ff2a"/>
+
+  <!-- Company Name -->
+  <text x="55" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#textGradient)">CYBER CLOUD</text>
+  <text x="55" y="42" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#a1a1aa">KENYA</text>
+
+  <!-- Tech accent lines -->
+  <path d="M52 15 L52 45" stroke="#00ff2a" stroke-width="1" opacity="0.5"/>
+  <path d="M148 15 L148 45" stroke="#00ff2a" stroke-width="1" opacity="0.5"/>
+</svg>
